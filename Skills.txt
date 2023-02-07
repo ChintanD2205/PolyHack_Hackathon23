@@ -8,3 +8,14 @@ C++, C (3.5)
 DBMS (3.5)
 Color Schemes (4)
 ML, Data science (3 or 3.5)
+
+Jainam:
+C              => 3
+C++            => 3.5
+HTML5          => 4
+CSS            => 4
+JavaScript     => 4
+DBMS           => 3.5
+Python         => 4
+Data Structure => 2.5
+PHP(Basics)    => 2.5
