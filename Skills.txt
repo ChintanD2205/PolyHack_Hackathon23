@@ -1,0 +1,10 @@
+Chintan:
+Python (4)
+Java (4)
+PHP (still Learning)
+HTML, CSS (3.5)
+JS (3)
+C++, C (3.5)
+DBMS (3.5)
+Color Schemes (4)
+ML, Data science (3 or 3.5)
