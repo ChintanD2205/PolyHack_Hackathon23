@@ -16,6 +16,7 @@ HTML5          => 4
 CSS            => 4
 JavaScript     => 4
 DBMS           => 3.5
+JAVA           => 4
 Python         => 4
 Data Structure => 2.5
 PHP(Basics)    => 2.5
