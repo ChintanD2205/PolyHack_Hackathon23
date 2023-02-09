@@ -1,0 +1,32 @@
+ByteSquad's TaskFlow for PolyHack 2K23
+
+6:30 - Meet at Vile Parle Station
+7:00 - Reach College and Complete Registration 
+7:30 - Navigate to assigned CR and setup 
+8:00 : 8:30 - Brainstorming
+8:30 : start coding
+9:00 : 13:00 - Pay attention at mentoring session
+17:00 - give appropriate presentation for judging round 1
+20:00 - Receive Prize and Update LinkedIn
+
+Note :
+Take break whenever necessary even if after 5 mins of starting.
+After 1 hr update corresponding team members about your work.
+After 2 hrs update all the members of the progress so far.
+After 3 hrs mandatory Break. - 15 min.
+After 1 hr, 1 person will move on to presentation for half an hour .
+
+Equipments : 
+Laptop
+Charger 
+Extension Boards
+Phone Chargers
+Coffee if needed
+Food depends on you
+
+Updates to be taken from Jainam : 
+5 features that would make our project standout.
+Decided Color Palette for the whole project.
+UI designs
+No. of pages.
+
