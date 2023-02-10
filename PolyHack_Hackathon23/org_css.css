@@ -37,8 +37,12 @@ section {
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-  width: 100%;
+  width: 90%;
   padding: 0.5em;
   font-size: 1em;
  
+}
+
+fieldset{
+  border-width: 0px ;
 }

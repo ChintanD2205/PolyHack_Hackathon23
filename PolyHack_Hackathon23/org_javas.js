@@ -2,6 +2,10 @@ document.getElementById("createEventBtn").addEventListener("click", function() {
   document.getElementById("eventForm").style.display = "block";
 });
 
+document.getElementById("createEventBtn").addEventListener("click", function(){
+  this.style.backgroundColor = "Thistle";
+});
+
 
 const addServiceButton = document.getElementById("add-service-button");
 const servicesList = document.getElementById("services-list");
