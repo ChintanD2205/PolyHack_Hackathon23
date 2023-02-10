@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 1em;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+ 
+}
