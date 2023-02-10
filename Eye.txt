@@ -1,0 +1,12 @@
+style :
+.fa{
+            font-size : 20px;
+            color: #7a797e;
+}
+
+body:
+<h3 style="margin-left:20px; font-size:20px; font-family:Calisto MT; color:bisque;"> Password : <sup id="cp1" style="font-size:10px; font-family:Calisto MT; color:red;">*</sup><br><input type="password" name="pwd" class="Full_Name" id="pwd1" size="31">
+                        <span>
+                            <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                        </span></h3>
+
