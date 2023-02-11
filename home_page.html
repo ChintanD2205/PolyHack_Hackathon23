@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/icon_logo.png" type="image/icon type">
+    <title>SkillSource</title>
+    <script src="/Sign In/org_javas.js"></script>
+</head>
+<body style="background-color:crimson">
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif ;
+        }
+        .goals{
+            position: relative;
+            left:1.4cm;
+            top: 2cm;
+            height: 10cm;
+            width:90%;
+            border-style:solid;
+            background-color: #ffc0cb;
+            border-radius: 10px;
+            flex-direction: column;
+        }
+        .about{
+            position: relative;
+            left: 15.5cm;
+            top: 2cm;
+            text-decoration: underline;
+            flex-direction: column;
+        }
+        .taskbar{
+            position: relative;
+            width: 90%;
+            left:1.4cm;
+            bottom:10.5cm;
+            height: 1.4cm;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+        }
+        .logo{
+            position: relative;
+            height: 1.7cm;
+            bottom: 0.1cm;
+        }
+        .home_btn{
+            position: relative;
+            height: 1.4cm;
+            bottom: 2cm;
+            width: 2cm;
+            left: 2cm;
+        }
+        .about_btn{
+            position: relative;
+            height: 1.4cm;
+            bottom: 3.9cm;
+            width: 2cm;
+            left: 4.7cm;
+            color: black;
+            border: none;
+        }
+        .vision_btn{
+            position: relative;
+            height: 1.4cm;
+            bottom: 5.7cm;
+            width: 4cm;
+            left: 7.4cm;
+            border-top: none;
+            border-bottom: none;
+            color: black;
+        }
+        .help_btn{
+            position: relative;
+            height: 1.41cm;
+            bottom: 7.74cm;
+            width: 3cm;
+            left: 12.1cm; 
+            border-top: none;
+            border-bottom: none;
+        }
+        .home_text{
+            position: relative;
+            left: 0.3cm;
+        }
+        .about_text{
+            position: relative;
+            left: 0.1cm;
+            text-decoration: none;
+            color: black;
+        }
+        .vision_text{
+            position: relative;
+            left: 0.3cm;
+            text-decoration: none;
+            color: black;
+        }
+        .help_text{
+            position: relative;
+            left: 0.3cm;
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            text-decoration: underline;
+        }      
+        .vision_mission{
+            position:relative;
+            width: 90%;
+            left: 1.4cm;
+            top: 1cm;
+            border-radius: 10px;
+            height: 10cm;
+            background-color: #ffc0cb;
+        }
+        .wpd_btn{
+            position: relative;
+            height: 1.4cm;
+            width: 4cm;
+            bottom: 7.6cm;
+            left: 12.1cm;
+            border-top: none;
+            border-bottom: none;
+        }
+        .wcud_btn{
+            position: relative;
+            height: 1.4cm;
+            width: 4cm;
+            bottom: 9.3cm;
+            left: 16.8cm;
+            border-top: none;
+            border-bottom: none;
+        }
+        .contact_btn{
+            position: relative;
+            height: 1.4cm;
+            width: 3cm;
+            bottom: 11.1cm;
+            left: 21.5cm;
+            border-top: none;
+            border-bottom: none;
+        }
+    </style>
+    <fieldset class="goals">
+        <center><h1>Would You Like To Donate</h1></center>
+
+        <form action="">
+            <input type="submit" value="Donate!" style="position: relative; height: 4cm; width: 7cm; border-radius: 20px; font-size: larger; font-weight: bold; left: 12cm; top: 2cm; background-color: rgb(253, 123, 123); box-shadow: 2px 10px;">
+        </form>
+    </fieldset>
+    <fieldset class="taskbar">
+        <div>
+            <img src="/Images/icon_logo.png" alt="Icon" class="logo">
+        </div>
+        <div>
+            <fieldset class="home_btn">
+                <h3 class="home_text">Home</h3>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="about_btn">
+                <a href="#abt"><h3 class="about_text">About Us</h3></a>
+                
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="vision_btn">
+                <a href="#vm"><h3 class="vision_text">Vision & Mission</h3></a>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="wpd_btn">
+                <a href="#wpd"><h3 class="wpd_text" style="color:black;">What People Do</h3></a>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="wcud_btn">
+                <a href="#wcud"><h3 class="wcud_text" style="color:black;">What Can You Do</h3></a>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="contact_btn">
+                <a href="#contact"><h3 class="contact_text" style="color:black;">Contact Us</h3></a>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="profile">
+                <style>
+                    .profile{
+                        position: relative;
+                        height: 1cm;
+                        width: 1cm;
+                        border-radius: 50%;
+                        left: 30cm;
+                        top: -12.8cm;
+                        background-image: url(/Images/pfp.png);
+                        background-repeat: repeat-x;
+                    }
+                </style>
+            </fieldset>
+        </div>
+    </fieldset>
+        <fieldset class="about_us">
+            <style>
+                .about_us{
+                    position: relative;
+                    width: 90%;
+                    left:1.4cm;
+                    top: 0.5cm;
+                    height: 10cm;
+                    border-radius: 10px;
+                    background-color: #ffc0cb;
+                }
+            </style>
+            <center><h1 id="abt">About Us</h1></center> 
+                <img src="/Images/abt.jpg" alt="" style="position: relative; left: 3cm; bottom: -2cm;">
+            <h4 class="about_content">
+                 <br>
+                 At SkillSource, we partner with local volunteer organizations to bring you a range of  <br> opportunities that match your interests and  availability. From helping out at a local food <br>  bank, to mentoring a young person, to building homes with a housing organization, there's  <br> something for everyone. <br><br>
+                 Our platform is easy to use, whether you're looking to volunteer from your desktop or your  <br>  mobile device. You can search for opportunities by location, cause, and  <br> time commitment, and apply to volunteer directly through the platform.<br><br>
+                We believe that everyone has unique skills, passions, and interests that they can use to <br>  make a positive impact in their communities. Whether you have a few hours a week to spare, <br>  or you're looking to use your skills to support a cause you care about, SkillSource makes it  <br> easy for you to get involved. <br><br>
+                
+            </h4>
+            <style>
+                .about_content{
+                    position: relative;
+                    left: 15cm;
+                    bottom: 4cm;
+                }
+            </style>
+        </fieldset>
+
+        <fieldset class="vision_mission">
+            <center><h1 id="vm">Vision & Mission</h1></center>
+            <h4 class="vision_content">
+                We seek a world of hope that is inclusive and just, where all people live in dignity and security<br>
+                To save lives, enable social protection and defeat poverty through through local volunteer <br> organization with individuals looking to donate their time and skills to good cause
+            </h4>
+            <style>
+                .vision_content{
+                    position: relative;
+                    bottom: -2cm;
+                    left: 10cm;
+                }
+            </style> 
+             <img src="/Images/vm.jpeg" alt="">
+            <h4 class="mission_content">
+                
+            </h4>
+            </style>
+            
+        </fieldset>
+
+        <fieldset class="what_people_do" id="wpd">
+            <center><h1>What People Do</h1></center>
+                <img src="/Images/pic1.jpeg">
+                <img src="/Images/pic2.jpeg" style="position:relative; left: 4cm;">
+                <img src="/Images/pic3.jpeg" style="position:relative; left: 8cm;">
+            <style>
+                .what_people_do{
+                    position: relative;
+                    width: 90%;
+                    left: 1.4cm;
+                    top: 1cm;
+                    height: 10cm;
+                    border-radius: 10px;
+                    background-color: #ffc0cb;
+                }
+            </style>
+        </fieldset>
+
+        <fieldset class="what_can_you_do" id="wcud">
+            <center><h1 >What Can You Do</h1></center>
+            <style>
+                .what_can_you_do{
+                    position: relative;
+                    width: 90%;
+                    left: 1.4cm;
+                    top: 1.5cm;
+                    height: 10cm;
+                    border-radius: 10px;
+                    background-color: #ffc0cb;
+                }
+            </style>
+            <h3 style="position: relative; left: 6cm;">User Login</h3>
+            <fieldset style="position: relative; height: 5cm; width: 10cm; left: 2cm; border-radius: 10px; box-shadow: 2px 10px; ">
+                <form action="/Sign In/sign_in _user.html" target="_blank">
+                    <input type="submit" value="Sign In" class="u_signin">
+                </form>
+                <form action="" target="_blank">
+                    <input type="submit" value="Sign Up" class="u_signup">
+                </form>
+                <p style="position: relative; bottom: 3cm;">Already Have An Account</p>
+                <p style="position: relative; bottom: 3.9cm; left: 6cm">Don't Have An Account</p>
+            </fieldset>
+            <style>
+                .u_signin{
+                    position: relative;
+                    top: 2cm;
+                    height: 1.5cm;
+                    width: 4cm;
+                    background-color: #ffc0cb;
+                    color: black;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+                .u_signup{
+                    position: relative;
+                    top: 0.5cm;
+                    left: 6cm;
+                    height: 1.5cm;
+                    width: 4cm;
+                    background-color: #ffc0cb;
+                    color: black;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+            </style>
+
+                <h3 style="position: relative; left: 23cm; width: 4cm; bottom: 7.4cm;">Orgaization Login</h3>
+            <fieldset style="position: relative; height: 5cm; width: 10cm; left: 19cm; border-radius: 10px; box-shadow: 2px 10px; top: -7.3cm; ">
+                <form action="/Sign In/sign_in _user.html" target="_blank">
+                    <input type="submit" value="Sign In" class="o_signin">
+                </form>
+                <form action="" target="_blank">
+                    <input type="submit" value="Sign Up" class="o_signup">
+                </form>
+                <p style="position: relative; bottom: 3cm;">Already Have An Account</p>
+                <p style="position: relative; bottom: 3.9cm; left: 6cm">Don't Have An Account</p>
+            </fieldset>
+            <style>
+                .o_signin{
+                    position: relative;
+                    top: 2cm;
+                    height: 1.5cm;
+                    width: 4cm;
+                    background-color: #ffc0cb;
+                    color: black;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+                .o_signup{
+                    position: relative;
+                    top: 0.5cm;
+                    left: 6cm;
+                    height: 1.5cm;
+                    width: 4cm;
+                    background-color: #ffc0cb;
+                    color: black;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+            </style>
+            </fieldset>
+        </fieldset>
+        
+        <fieldset class="contact_us">
+            <center><h1 id="contact">Contact Us</h1></center>
+            <style>
+                .contact_us{
+                    position: relative;
+                    width: 90%;
+                    left: 1.4cm;
+                    top: 2cm;
+                    height: 10cm;
+                    border-radius: 10px;
+                    background-color: #ffc0cb;
+                }
+            </style>
+            <div class="contacts">
+
+               
+
+                Name: Chintan Dodia<br>
+                Email: chintan222005@gmail.com
+                <br><br>
+                Name: Jainam Barbhaya<br>
+                Email: jainambarbhaya1509@gmail.com
+                <br><br>
+                Name: Het Shah<br>
+                Email: shahhet828@gmail.com
+                <br><br>
+                Name: Rashmi Kamdar<br>
+                Email: rtk2825@gmail.com
+                <br><br>
+                <img src="/Images/contact.png" alt="" style="position: relative; right: 17cm; bottom: 7cm;">
+                <style>
+                    .contacts{
+                        position: relative;
+                        width: 10cm;
+                        left: 19cm;
+                        bottom: -1cm;
+                        font-size: large;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                </style>
+            </div>
+        </fieldset>
+
+</body>
+</html>

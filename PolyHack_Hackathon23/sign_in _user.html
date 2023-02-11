@@ -77,11 +77,11 @@
       <div class="right">
         <img src="/icon_logo_final.png" alt="Company Logo">
         <div class="form">
-          <form onsubmit="return validateForm()">
-            <input type="email" placeholder="Email" id="email">
-            <input type="password" placeholder="Password">
+          <form action = "process.php" onsubmit="return validateForm()">
+            <input type="email" placeholder="Email" id="user" name="user">
+            <input type="password" placeholder="Password" id="pass" name="pass">
            
-            <input type="submit" value="Sign-In" onclick="window.location.href='https://www.google.com'">
+            <input type="submit" value="Sign-In">
           </form>
         </div>
       </div>
